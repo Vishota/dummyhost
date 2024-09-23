@@ -1,7 +1,7 @@
 import express from 'express'
 
 const app = express()
-const port = 8000
+const port = 80
 
 app.all('/*', (req, res) => {
     const data = {
